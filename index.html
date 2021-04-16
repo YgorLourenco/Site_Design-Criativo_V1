@@ -11,12 +11,12 @@
 <body>
     <div class="container">
         <!--// ANCHOR - SESSÃO 1  -->
-        <section class="section-1">
+        <section class="section-1" id="home">
             <nav class="navbar">
-                <a href="#" class="navbar-link">Design</a>
-                <a href="#" class="navbar-link">Clientes</a>
-                <a href="#" class="navbar-link">Time</a>
-                <a href="#" class="navbar-link">Contato</a>
+                <a href="#home" class="navbar-link">Design</a>
+                <a href="#customers" class="navbar-link">Clientes</a>
+                <a href="#team" class="navbar-link">Time</a>
+                <a href="#contact" class="navbar-link">Contato</a>
             </nav>
 
             <div class="floating-bg"></div>
@@ -30,7 +30,7 @@
         <!--FIM DA SESSÃO 1-->
 
         <!-- ANCHOR - SESSÃO 2-->
-        <section class="section-2">
+        <section class="section-2" id="customers">
             <h1 class="section-heading">Clientes</h1>
             <div class="customers-wrapper">
                 <div class="customer">
@@ -79,7 +79,7 @@
         <!-- FIM DA SESSÃO 2-->
 
         <!-- ANCHOR - SESSÃO 3-->
-        <section class="section-3">
+        <section class="section-3" id="team">
             <h1 class="section-heading">Time</h1>
             <div class="team-wrapper">
                 <div class="team-member">
@@ -92,12 +92,12 @@
                         <li>CSS3</li>
                         <li>Ai</li>
                     </ul>
-                        <a href='#' class='projects-btn'>Projects</a>
+                        <a href='#' class='projects-btn'>Projetos</a>
                         <div class="story-btn" title="My Story">
                             <div class='story-btn-line'></div>
                         </div>
                         <div class='story'>
-                            <h4 class='story-heading'>About Me</h4>
+                            <h4 class='story-heading'>Sobre mim</h4>
                             <p class='story-paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minus facere natus, commodi quidem neque id in sequi quos quisquam iure accusamus placeat architecto, beatae, illum quo adipisci eaque explicabo?</p>
                         </div>
                 </div>
@@ -112,19 +112,19 @@
                         <li>CSS3</li>
                         <li>Inkscape</li>
                     </ul>
-                        <a href='#' class='projects-btn'>Projects</a>
+                        <a href='#' class='projects-btn'>Projetos</a>
                         <div class="story-btn" title="My Story">
                             <div class='story-btn-line'></div>
                         </div>
                         <div class='story'>
-                            <h4 class='story-heading'>About Me</h4>
+                            <h4 class='story-heading'>Sobre mim</h4>
                             <p class='story-paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minus facere natus, commodi quidem neque id in sequi quos quisquam iure accusamus placeat architecto, beatae, illum quo adipisci eaque explicabo?</p>
                         </div>
                 </div>
 
                 <div class="team-member">
                     <img src='images/team-member-3.jpg' class="team-member-img">
-                    <h2 class="team-member-name">John Doe<span>(Developer)</span></h2>
+                    <h2 class="team-member-name">John Doe<span>(Desenvolvedor)</span></h2>
                     <ul class='team-member-skills'>
                         <li>JavaScript</li>
                         <li>ReactJS</li>
@@ -132,12 +132,12 @@
                         <li>MongoDB</li>
                         <li>Python</li>
                     </ul>
-                        <a href='#' class='projects-btn'>Projects</a>
+                        <a href='#' class='projects-btn'>Projetos</a>
                         <div class="story-btn" title="My Story">
                             <div class='story-btn-line'></div>
                         </div>
                         <div class='story'>
-                            <h4 class='story-heading'>About Me</h4>
+                            <h4 class='story-heading'>Sobre mim</h4>
                             <p class='story-paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minus facere natus, commodi quidem neque id in sequi quos quisquam iure accusamus placeat architecto, beatae, illum quo adipisci eaque explicabo?</p>
                         </div>
                 </div>
@@ -146,6 +146,29 @@
 
         <!-- FIM DA SESSÃO 3-->
 
+        <!-- ANCHOR - SESSÃO 4-->
+        <section class="section-4" id="contact">
+            <h1 class="section-heading">Contato</h1>
+            <div class="form-container">
+                <img src='images/form-img.png' class='form-img'>
+                <form class="contact-form">
+                    <input type="nome" placeholder="Seu Nome">
+                    <input type="email" placeholder="Seu E-mail">
+                    <textarea placeholder="Sua Mensagem"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <p class="copyright">
+              Copyright &copy; Ygor Lourenço Todos os Direitos Reservados  
+            </p>
+        </section>
+
+        <!-- FIM DA SESSÃO 4-->
+
+        <!--ANCHOR - Estilização do botão para voltar ao topo-->
+        <a href="#home" class='scroll-up-btn'>
+            <i class="fas fa-arrow-up"></i>
+        </a>
 
     </div>
     <script src="script.js"></script>
